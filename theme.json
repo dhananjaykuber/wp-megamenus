@@ -1,0 +1,279 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "custom": false,
+            "defaultGradients": false,
+            "defaultPalette": false,
+            "defaultDuotone": false,
+            "customGradient": true,
+            "palette": [
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
+                },
+                {
+                    "name": "Gray",
+                    "slug": "gray",
+                    "color": "#36364a"
+                },
+                {
+                    "name": "Gray Light",
+                    "slug": "gray-light",
+                    "color": "#f0f6ffe0"
+                },
+                {
+                    "name": "Navy",
+                    "slug": "navy",
+                    "color": "#11023b"
+                },
+                {
+                    "name": "Navy Light",
+                    "slug": "navy-light",
+                    "color": "#e0e6f3"
+                },
+                {
+                    "name": "Purple Light",
+                    "slug": "purple-light",
+                    "color": "#1d36810a"
+                },
+                {
+                    "name": "Purple",
+                    "slug": "purple",
+                    "color": "#f3f0ff"
+                },
+                {
+                    "name": "Purple Transparent",
+                    "slug": "purple-transparent",
+                    "color": "#09114421"
+                }
+            ],
+            "gradients": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "gradient": "linear-gradient(268deg, #f0f6ffe0, #f3f0ffe0)"
+                }
+            ]
+        },
+        "shadow": {
+            "defaultPresets": false,
+            "presets": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "shadow": "0 40px 56px -16px #22066d29,0 8px 20px #22066d0f,1px 0 2px #22066d0a,0 0 0 1px #22066d14"
+                }
+            ]
+        },
+        "useRootPaddingAwareAlignments": true,
+        "typography": {
+            "defaultFontSizes": false,
+            "customFontSize": true,
+            "fontSizes": [
+                {
+                    "name": "12px",
+                    "slug": "12",
+                    "size": "clamp(12px, 0.833vw, 12px)"
+                },
+                {
+                    "name": "14px",
+                    "slug": "14",
+                    "size": "clamp(14px, 0.944vw, 14px)"
+                },
+                {
+                    "name": "16px",
+                    "slug": "16",
+                    "size": "clamp(16px, 1.111vw, 16px)"
+                },
+                {
+                    "name": "24px",
+                    "slug": "24",
+                    "size": "clamp(24px, 1.667vw, 24px)"
+                },
+                {
+                    "name": "32px",
+                    "slug": "32",
+                    "size": "clamp(32px, 2.222vw, 32px)"
+                },
+                {
+                    "name": "40px",
+                    "slug": "40",
+                    "size": "clamp(40px, 2.778vw, 40px)"
+                },
+                {
+                    "name": "48px",
+                    "slug": "48",
+                    "size": "clamp(48px, 3.333vw, 48px)"
+                },
+                {
+                    "name": "60px",
+                    "slug": "60",
+                    "size": "clamp(60px, 4.167vw, 60px)"
+                },
+                {
+                    "name": "96px",
+                    "slug": "96",
+                    "size": "clamp(96px, 6.667vw, 96px)"
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "name": "Inter",
+                    "slug": "inter",
+                    "fontFamily": "Inter, sans-serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": ["file:./assets/fonts/Inter-Bold.woff2"]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": ["file:./assets/fonts/Inter-SemiBold.woff2"]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "fontStretch": "normal",
+                            "fontDisplay": "swap",
+                            "src": ["file:./assets/fonts/Inter-Regular.woff2"]
+                        }
+                    ]
+                }
+            ]
+        },
+        "spacing": {
+            "defaultSpacingSizes": false,
+            "padding": true,
+            "margin": true,
+            "blockGap": true,
+            "units": ["px", "em", "rem", "vh", "vw", "%"],
+            "spacingSizes": [
+                {
+                    "name": "2px",
+                    "slug": "2",
+                    "size": "clamp(2px, 0.139vw, 2px)"
+                },
+                {
+                    "name": "4px",
+                    "slug": "4",
+                    "size": "clamp(4px, 0.278vw, 4px)"
+                },
+                {
+                    "name": "8px",
+                    "slug": "8",
+                    "size": "clamp(8px, 0.556vw, 8px)"
+                },
+                {
+                    "name": "12px",
+                    "slug": "12",
+                    "size": "clamp(12px, 0.833vw, 12px)"
+                },
+                {
+                    "name": "16px",
+                    "slug": "16",
+                    "size": "clamp(16px, 1.111vw, 16px)"
+                },
+                {
+                    "name": "20px",
+                    "slug": "20",
+                    "size": "clamp(20px, 1.389vw, 20px)"
+                },
+                {
+                    "name": "24px",
+                    "slug": "24",
+                    "size": "clamp(24px, 1.667vw, 24px)"
+                },
+                {
+                    "name": "32px",
+                    "slug": "32",
+                    "size": "clamp(32px, 2.222vw, 32px)"
+                },
+                {
+                    "name": "40px",
+                    "slug": "40",
+                    "size": "clamp(40px, 2.778vw, 40px)"
+                },
+                {
+                    "name": "48px",
+                    "slug": "48",
+                    "size": "clamp(48px, 3.333vw, 48px)"
+                },
+                {
+                    "name": "56px",
+                    "slug": "56",
+                    "size": "clamp(56px, 3.889vw, 56px)"
+                },
+                {
+                    "name": "64px",
+                    "slug": "64",
+                    "size": "clamp(64px, 4.444vw, 64px)"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "1440px",
+            "wideSize": "1440px"
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/paragraph": {
+                "typography": {
+                    "lineHeight": "1.5"
+                },
+                "color": {
+                    "text": "var:preset|color|gray"
+                }
+            }
+        },
+        "color": {
+            "text": "var:preset|color|gray",
+            "background": "var:preset|color|purple"
+        },
+        "typography": {
+            "fontFamily": "var:preset|font-family|inter",
+            "fontSize": "var:preset|font-size|14",
+            "fontWeight": "400",
+            "lineHeight": "1.5"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0"
+            },
+            "padding": {
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0"
+            }
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header",
+            "title": "Header"
+        }
+    ]
+}
