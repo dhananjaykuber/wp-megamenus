@@ -17,7 +17,7 @@ function megamenu_enqueue_scripts() {
 	wp_enqueue_script(
 		'megamenu-script',
 		get_template_directory_uri() . '/build/index.js',
-		array( 'jquery' ),
+		array(),
 		'1.0.0',
 		false
 	);
